@@ -1,0 +1,210 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="frontEnd.master.vb" Inherits="Gayandn.frontEnd" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="EZreach.krd" />
+	<meta name="author" content="" />
+
+	<link rel="icon" href="assetsFrontEnd/images/favicon.ico">
+
+	<title>EZreach </title>
+
+	<link rel="stylesheet" href="assetsFrontEnd/css/bootstrap.css">
+	<link rel="stylesheet" href="assetsFrontEnd/css/font-icons/entypo/css/entypo.css">
+	<link rel="stylesheet" href="assetsFrontEnd/css/neon.css">
+
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+
+	<!--[if lt IE 9]><script src="assetsFrontEnd/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+     <%--leflet css--%>
+
+   <link rel="stylesheet" href="assets/leaflet.css" >
+
+
+	</head>
+
+<body>
+ <form id="form1" runat="server">
+	<div class="wrap">
+	
+	<!-- Logo and Navigation -->
+<div class="site-header-container container" >
+
+	<div class="row" >
+	
+		<div class="col-md-12">
+			
+			<header class="site-header">
+			
+				<section class="site-logo">
+				
+					<a href="home.aspx" class=" visible-xs">
+						<img src="assetsFrontEnd/images/LogoRounded.png" width="50" height="50" />
+					</a>
+					<a href="home.aspx" class=" hidden-xs">
+						<img src="assetsFrontEnd/images/LogoRounded.png" width="70" height="70" />
+					</a>
+					
+				</section>
+				
+				<nav class="site-nav" >
+					
+					<ul class="main-menu hidden-xs" id="main-menu">
+
+						<%--class="active"--%>
+						<li >
+							<a href="Home.aspx">
+								<span>Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="About.aspx">
+								<span>About</span>
+							</a>
+							
+	
+						<li>
+							<a href="Contact.aspx">
+								<span>Contact us</span>
+							</a>
+						</li>
+						<li>
+							<a href="form.aspx">
+								<span>Register your location</span>
+							</a>
+						</li>
+
+				<%If Session("loginSesion") = "868868" And Session("u_role") = "user" Then  %>
+
+						<li>
+							<a href="search.aspx">
+								<span>Search</span>
+							</a>
+						</li>
+							<li>
+                                <asp:LinkButton ID="LnkLogout" runat="server"><span>Logout</span></asp:LinkButton>
+					
+						</li>
+
+
+					<% Else %>
+
+						<li>
+							<a href="login.aspx">
+								<span>Login</span>
+							</a>
+						</li>
+
+				<% end if %>
+		
+					</ul>
+					
+				
+					<div class="visible-xs">
+						
+						<a href="#" class="menu-trigger">
+							<i class="entypo-menu"></i>
+						</a>
+						
+					</div>
+				</nav>
+				
+			</header>
+			
+		</div>
+		
+	</div>
+	</div>
+	
+</div>	
+   
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+   
+
+	<section class="footer-widgets content-section bg-gray">
+	
+	<div class="container">
+		
+		<div class="row">
+			
+			<div class="col-sm-6">
+				<div class="row">
+				<div class="col-xs-3 visible-xs">
+
+				</div>
+				<div class="col-xs-6 ">
+
+					<a href="home.aspx">
+					<img src="assetsFrontEnd/images/LogoRounded.png" width="20%" height="20%" />
+				</a>
+				</div>
+						<div class="col-xs-3 visible-xs">
+
+				</div>
+				</div>
+				
+				<img src="assetsFrontEnd/images/FooterSlogan.png" width="50%" height="50%" />
+			</div>
+			
+			<div class="col-sm-3">
+				
+				<h5>Address</h5>
+				
+				<p>
+					AUIS, Inc. <br />
+					Sulaymaniyah (Kirkuk-Raparin Main Road) <br />
+					Kurdistan, Iraq
+				</p>
+				
+			</div>
+			
+			<div class="col-sm-3">
+				
+				<h5>Contact</h5>
+				
+				<p>
+					Phone: +964 (770) 105-2008 <br />
+					Fax: +964 (770) 105-2008 <br />
+					BS14283@AUIS.EDU.KRD
+				</p>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+	
+</section>
+
+
+
+
+	<!-- Bottom scripts (common) -->
+	<script src="assetsFrontEnd/js/gsap/TweenMax.min.js"></script>
+	<script src="assetsFrontEnd/js/bootstrap.js"></script>
+	<script src="assetsFrontEnd/js/joinable.js"></script>
+	<script src="assetsFrontEnd/js/resizeable.js"></script>
+	<script src="assetsFrontEnd/js/neon-slider.js"></script>
+
+
+	<!-- JavaScripts initializations and stuff -->
+	<script src="assetsFrontEnd/js/neon-custom.js"></script>
+	 </form>
+</body>
+</html>

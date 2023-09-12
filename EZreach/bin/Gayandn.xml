@@ -1,0 +1,2100 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Gayandn
+</name>
+</assembly>
+<members>
+<member name="T:Gayandn.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Gayandn.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Gayandn.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Gayandn.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Gayandn.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Gayandn.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:Gayandn.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Gayandn.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Gayandn.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:Gayandn.admins._LinkButton4">
+<summary>
+LinkButton4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._LinkButtonCancel">
+<summary>
+LinkButtonCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._PanelInsert">
+<summary>
+PanelInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtFname">
+<summary>
+txtFname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RQLong">
+<summary>
+RQLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtLname">
+<summary>
+txtLname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RQLat">
+<summary>
+RQLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._CheckBoxActive">
+<summary>
+CheckBoxActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._ddlRole">
+<summary>
+ddlRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RQRole">
+<summary>
+RQRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._ddlCity">
+<summary>
+ddlCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RequiredFieldValidator5">
+<summary>
+RequiredFieldValidator5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._sdsCities">
+<summary>
+sdsCities control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtConfPass">
+<summary>
+txtConfPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._CompareValidator1">
+<summary>
+CompareValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._txtEnPass">
+<summary>
+txtEnPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._sdsUsers">
+<summary>
+sdsUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._sqldsSetDeleted">
+<summary>
+sqldsSetDeleted control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.admins._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._sdsPlaces">
+<summary>
+sdsPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._PanleInsertConfirmation">
+<summary>
+PanleInsertConfirmation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._textBox_confirmation">
+<summary>
+textBox_confirmation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._Lable_conf_message">
+<summary>
+Lable_conf_message control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._buttonConfirm">
+<summary>
+buttonConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._panelWrongPassword">
+<summary>
+panelWrongPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._linkbtoonEdit">
+<summary>
+linkbtoonEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LinkButtonShowFormHideConfirm">
+<summary>
+LinkButtonShowFormHideConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelPhone">
+<summary>
+LabelPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelName">
+<summary>
+LabelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelCity">
+<summary>
+LabelCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelType">
+<summary>
+LabelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelDescription">
+<summary>
+LabelDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelLong">
+<summary>
+LabelLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.approval._LabelLat">
+<summary>
+LabelLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._LblOldPass">
+<summary>
+LblOldPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._txtConfPass">
+<summary>
+txtConfPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._CompareValidator1">
+<summary>
+CompareValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._txtEnPass">
+<summary>
+txtEnPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.changepassword._sdsChangePass">
+<summary>
+sdsChangePass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._LinkButton4">
+<summary>
+LinkButton4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._LinkButtonCancel">
+<summary>
+LinkButtonCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._PanelInsert">
+<summary>
+PanelInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtFname">
+<summary>
+txtFname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RQLong">
+<summary>
+RQLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtLname">
+<summary>
+txtLname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RQLat">
+<summary>
+RQLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._CheckBoxActive">
+<summary>
+CheckBoxActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._ddlRole">
+<summary>
+ddlRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RQRole">
+<summary>
+RQRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._ddlCity">
+<summary>
+ddlCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RequiredFieldValidator5">
+<summary>
+RequiredFieldValidator5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._sdsCities">
+<summary>
+sdsCities control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtConfPass">
+<summary>
+txtConfPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._CompareValidator1">
+<summary>
+CompareValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._txtEnPass">
+<summary>
+txtEnPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._sdsUsers">
+<summary>
+sdsUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.costumers._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._Repeater1">
+<summary>
+Repeater1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._Repeater2">
+<summary>
+Repeater2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._Repeater3">
+<summary>
+Repeater3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._Repeater4">
+<summary>
+Repeater4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._sdsUsers">
+<summary>
+sdsUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._sdsNumOfCostumers">
+<summary>
+sdsNumOfCostumers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._sdsNumOfPlaces">
+<summary>
+sdsNumOfPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._sdsNumOfPendingPlaces">
+<summary>
+sdsNumOfPendingPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._default._sdsNumOfCities">
+<summary>
+sdsNumOfCities control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._SqlDataSourceSearch">
+<summary>
+SqlDataSourceSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelId">
+<summary>
+LabelId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelType">
+<summary>
+LabelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelLong">
+<summary>
+LabelLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelLat">
+<summary>
+LabelLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelPhone">
+<summary>
+LabelPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelName">
+<summary>
+LabelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelCity">
+<summary>
+LabelCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelCreation">
+<summary>
+LabelCreation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelUser">
+<summary>
+LabelUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelApproved">
+<summary>
+LabelApproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._LabelDescription">
+<summary>
+LabelDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._Labelpdate">
+<summary>
+Labelpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.display._sdsPlaces">
+<summary>
+sdsPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._sdsCheckPhone">
+<summary>
+sdsCheckPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._lblLocationFeedback">
+<summary>
+lblLocationFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._txtLogitude">
+<summary>
+txtLogitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._txtLatitude">
+<summary>
+txtLatitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._RQPhone">
+<summary>
+RQPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._lblPhoneFeedback">
+<summary>
+lblPhoneFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._ddlType">
+<summary>
+ddlType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._txtDescription">
+<summary>
+txtDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._ddlCity">
+<summary>
+ddlCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._RQcity">
+<summary>
+RQcity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._txtCaptcha">
+<summary>
+txtCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._rfvCaptcha">
+<summary>
+rfvCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._sdsSelectForUpdate">
+<summary>
+sdsSelectForUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._sdsCities">
+<summary>
+sdsCities control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.form._sdsType">
+<summary>
+sdsType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.frontEnd._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.frontEnd._LnkLogout">
+<summary>
+LnkLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.frontEnd._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._textPhone">
+<summary>
+textPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._textPass">
+<summary>
+textPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._linkLogin">
+<summary>
+linkLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._lableUserNotFound">
+<summary>
+lableUserNotFound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.login._sdsChangePass">
+<summary>
+sdsChangePass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.masterPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.masterPage._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.masterPage._LablabelName">
+<summary>
+LablabelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.masterPage._lnkLogout">
+<summary>
+lnkLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.masterPage._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.MoreDetails._ImageShow">
+<summary>
+ImageShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.MoreDetails._lblType">
+<summary>
+lblType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.MoreDetails._labelDetails">
+<summary>
+labelDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.pendingPlaces._gvPlaces">
+<summary>
+gvPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.pendingPlaces._sdsPlaces">
+<summary>
+sdsPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.pendingPlaces._sdsSelectForUpdate">
+<summary>
+sdsSelectForUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._sdsCheckPhone">
+<summary>
+sdsCheckPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._sdsType">
+<summary>
+sdsType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._LinkButtonCancel">
+<summary>
+LinkButtonCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._PanelMapUpdate">
+<summary>
+PanelMapUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._PanelInsert">
+<summary>
+PanelInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtLogitude">
+<summary>
+txtLogitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RQLong">
+<summary>
+RQLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtLatitude">
+<summary>
+txtLatitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RQLat">
+<summary>
+RQLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtDescription">
+<summary>
+txtDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RQPhone">
+<summary>
+RQPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._lblPhoneFeedback">
+<summary>
+lblPhoneFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._ddlType">
+<summary>
+ddlType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._ddlCity">
+<summary>
+ddlCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RQcity">
+<summary>
+RQcity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._Panelupdate">
+<summary>
+Panelupdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtLogitudeUpdate">
+<summary>
+txtLogitudeUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtLatitudeUpdate">
+<summary>
+txtLatitudeUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtNameUpdate">
+<summary>
+txtNameUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtDescriptionUpdate">
+<summary>
+txtDescriptionUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._txtPhoneUpdate">
+<summary>
+txtPhoneUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._ddlTypeUpdate">
+<summary>
+ddlTypeUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RequiredFieldValidator5">
+<summary>
+RequiredFieldValidator5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._ddlCitiesUpdate">
+<summary>
+ddlCitiesUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._RequiredFieldValidator6">
+<summary>
+RequiredFieldValidator6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._CheckBoxApprovedUpdate">
+<summary>
+CheckBoxApprovedUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._Button_update">
+<summary>
+Button_update control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._panelGridView">
+<summary>
+panelGridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._gvPlaces">
+<summary>
+gvPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._sdsPlaces">
+<summary>
+sdsPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._sdsSelectForUpdate">
+<summary>
+sdsSelectForUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._sdsCities">
+<summary>
+sdsCities control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._PanelScriptInsert">
+<summary>
+PanelScriptInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._PanelScriptUpdate">
+<summary>
+PanelScriptUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.places._sdsPlacesToMap">
+<summary>
+sdsPlacesToMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._public._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn._public._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.qrCode._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._SqlDataSourceSearch">
+<summary>
+SqlDataSourceSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._sdsApprove">
+<summary>
+sdsApprove control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._linkApprove">
+<summary>
+linkApprove control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelId">
+<summary>
+LabelId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelType">
+<summary>
+LabelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelLong">
+<summary>
+LabelLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelLat">
+<summary>
+LabelLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelPhone">
+<summary>
+LabelPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelName">
+<summary>
+LabelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelCity">
+<summary>
+LabelCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelCreation">
+<summary>
+LabelCreation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelUser">
+<summary>
+LabelUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelApproved">
+<summary>
+LabelApproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._LabelDescription">
+<summary>
+LabelDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.ReviewAndApprove._sdsPlaces">
+<summary>
+sdsPlaces control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._lblLong">
+<summary>
+lblLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._lblLat">
+<summary>
+lblLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._fSearchKeyword">
+<summary>
+fSearchKeyword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._sdsSearchLog">
+<summary>
+sdsSearchLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._SqlDataSourceSearch">
+<summary>
+SqlDataSourceSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._tSearch">
+<summary>
+tSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._bSearch">
+<summary>
+bSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._PanelResultFound">
+<summary>
+PanelResultFound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._PanelNoResult">
+<summary>
+PanelNoResult control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._PanelReultDetails">
+<summary>
+PanelReultDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._plBarCode">
+<summary>
+plBarCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelId">
+<summary>
+LabelId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelType">
+<summary>
+LabelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelLong">
+<summary>
+LabelLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelLat">
+<summary>
+LabelLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelPhone">
+<summary>
+LabelPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelName">
+<summary>
+LabelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelCity">
+<summary>
+LabelCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._LabelDescription">
+<summary>
+LabelDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._PanelMap">
+<summary>
+PanelMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Gayandn.search._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
